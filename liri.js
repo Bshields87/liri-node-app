@@ -1,20 +1,29 @@
  require("dotenv").config();
 
-var keys = require("./keys.js");
-var Spotify = require('node-spotify-api');
 
+var axios = require("axios");
 
-
-var spotify = new Spotify({
-    id: "015d9c94eeba42a6a6bdac8325c705f6",
-    secret: "9d834df4038c4f798c530291f9c76d05"
+/*var action= process.argv[2];
+var artist= process.argv[3];
+axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then(
+  function(response){
+    console.log(response.data);
   });
-var query= process.argv[2];
-spotify.search({ type: 'track', query: query }, function(err, data) {
- 
-    
-    if (err) {
-    return console.log('Error occurred: ' + err);
+
+
+  var movieTitle= process.argv[3];
+  axios.get("http://www.omdbapi.com/?t=" + movieTitle + "&y=&plot=short&apikey=trilogy").then(
+  function(response) {
+    console.log(response);
   }
-  console.log(data.artist);
+  );*/
+
+var fs= require("fs");
+fs.readFile("random.txt","utf8", function(error, data){
+  if (error){
+    return console.log(error);
+  }
+  console.log(data);
+  var dataArr = data.split(",");
+  console.log(dataArr);
 });
