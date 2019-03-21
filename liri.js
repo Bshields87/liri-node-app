@@ -1,7 +1,9 @@
-require("dotenv").config();
+require('dotenv').configure();
 let keys = require('./keys.js');
+var spotify = new Spotify(keys.spotify);
+console.log(spotify);
 //var spotify = new Spotify(keys.spotify);
-let fs = require("fs");
+/*let fs = require("fs");
 let moment = require("moment");
 var axios = require("axios");
 
@@ -21,9 +23,12 @@ if (action === "concert-this") {
           "Artist: " + jsonData[i].lineup[0],
           "Venue: " + jsonData[i].venue.name,
           "Location: " + jsonData[i].venue.country + jsonData[i].venue.city,
-          "Date: " + moment(jsonData[i].datetime).format("MM/DD/YYYY, h:mm:ss a"),
-          divider
-        ]
+          "Date: " + moment(jsonData[i].datetime).format("MM/DD/YYYY, h:mm:ss a")
+        ];
+        fs.appendFile("log.txt", concertSchedule + divider, function(err) {
+          if (err) throw err;
+        }) 
+        
         console.log(concertSchedule);
       }
     });
@@ -48,7 +53,10 @@ else if (action === "movie-this") {
         "Country of Production: " + jsonData.Country,
         "Language: " + jsonData.Language,
         "Plot: " + jsonData.Plot,
-        "Actors: " + jsonData.Actors]
+        "Actors: " + jsonData.Actors];
+        fs.appendFile("log.txt", movieInfo + divider, function(err) {
+          if (err) throw err;
+        }) 
       console.log(movieInfo);
     });
 }
@@ -61,4 +69,4 @@ fs.readFile("random.txt", "utf8", function (error, data) {
   console.log(data);
   var dataArr = data.split(",");
   console.log(dataArr);
-});
+});*/
