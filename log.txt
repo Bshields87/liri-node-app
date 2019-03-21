@@ -124,3 +124,54 @@ Title: Blade,Release Year: 1998,IMDB Rating: 7.1,Rotten Tomatoes Rating: 53%,Cou
 Title: Halloween,Release Year: 1978,IMDB Rating: 7.8,Rotten Tomatoes Rating: 95%,Country of Production: USA,Language: English,Plot: Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.,Actors: Donald Pleasence, Jamie Lee Curtis, Nancy Kyes, P.J. Soles
 ------------------------------------------------------------
 
+Artist: Earth, Wind & Fire,Venue: The Venetian,Location: United StatesLas Vegas,Date: 03/22/2019, 7:00:47 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: The Venetian,Location: United StatesLas Vegas,Date: 03/23/2019, 8:00:18 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: Pechanga Resort & Casino,Location: United StatesTemecula,Date: 03/24/2019, 7:00:00 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: The Venetian,Location: United StatesLas Vegas,Date: 03/27/2019, 8:00:27 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: The Venetian,Location: United StatesLas Vegas,Date: 03/29/2019, 8:00:19 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: The Venetian,Location: United StatesLas Vegas,Date: 03/30/2019, 8:00:47 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: The New Orleans Jazz & Heritage Festival,Location: United StatesNew Orleans,Date: 04/25/2019, 7:00:25 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: Sunfest ,Location: United StatesFlorida,Date: 05/03/2019, 7:00:40 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: Red Hat Amphitheater,Location: United StatesRaleigh,Date: 05/10/2019, 7:00:35 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: Harrah's Cherokee Casino Resort,Location: United StatesCherokee,Date: 05/11/2019, 7:00:08 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: The Orpheum,Location: United StatesMemphis,Date: 05/14/2019, 7:00:07 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: Von Braun Center,Location: United StatesHuntsville,Date: 05/15/2019, 7:00:34 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: The Walmart AMP,Location: United StatesRogers,Date: 05/17/2019, 7:00:47 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: Wolf Trap Concert Hall,Location: United StatesVienna,Date: 07/02/2019, 7:00:53 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: Cincinnati Jazz Festival,Location: United StatesCincinnati,Date: 07/26/2019, 7:00:06 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: Hollywood Bowl,Location: United StatesLos Angeles,Date: 09/13/2019, 7:00:19 pm
+------------------------------------------------------------
+
+Artist: Earth, Wind & Fire,Venue: Hollywood Bowl,Location: United StatesLos Angeles,Date: 09/14/2019, 7:00:08 pm
+------------------------------------------------------------
+

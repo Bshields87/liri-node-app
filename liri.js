@@ -1,6 +1,6 @@
-//
 
-/*require('dotenv').config();
+
+require('dotenv').config();
 var Spotify = require('node-spotify-api');
 let keys = require('./keys.js');
 
@@ -19,7 +19,7 @@ if (action === "spotify-this-song"){
   console.log(data); 
   });
   
-}*/
+
 
 
 let fs = require("fs");
@@ -79,13 +79,13 @@ else if (action === "movie-this") {
       console.log(movieInfo);
     });
 }
+}
 
-
-fs.readFile("random.txt", "utf8", function (error, data) {
+/*fs.readFile("random.txt", "utf8", function (error, data) {
   if (error) {
     return console.log(error);
   }
   console.log(data);
   var dataArr = data.split(",");
   console.log(dataArr);
-});
+});*/
