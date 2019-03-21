@@ -1,9 +1,28 @@
-require('dotenv').configure();
+//
+
+/*require('dotenv').config();
+var Spotify = require('node-spotify-api');
 let keys = require('./keys.js');
+
 var spotify = new Spotify(keys.spotify);
 console.log(spotify);
-//var spotify = new Spotify(keys.spotify);
-/*let fs = require("fs");
+var action = process.argv[2];
+
+if (action === "spotify-this-song"){
+  var song = process.argv.slice(3).join("+");
+  console.log(song);
+  spotify.search({ type: 'track', query: song }, function(err, data) {
+    if (err) {
+      return console.log('Error occurred: ' + err);
+    }
+  
+  console.log(data); 
+  });
+  
+}*/
+
+
+let fs = require("fs");
 let moment = require("moment");
 var axios = require("axios");
 
@@ -69,4 +88,4 @@ fs.readFile("random.txt", "utf8", function (error, data) {
   console.log(data);
   var dataArr = data.split(",");
   console.log(dataArr);
-});*/
+});
