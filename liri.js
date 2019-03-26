@@ -4,11 +4,12 @@ require('dotenv').config();
 var Spotify = require('node-spotify-api');
 let keys = require('./keys.js');
 
-var spotify = new Spotify(keys.spotify);
-console.log(spotify);
+
 var action = process.argv[2];
 
 if (action === "spotify-this-song"){
+  var spotify = new Spotify(keys.spotify);
+console.log(spotify);
   var song = process.argv.slice(3).join("+");
   console.log(song);
   spotify.search({ type: 'track', query: song }, function(err, data) {
